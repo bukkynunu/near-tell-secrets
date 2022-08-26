@@ -61,6 +61,7 @@ export function likeSecret(secretId: string): void {
 	} else {
 		assert(liked.indexOf(secretId) == -1, "Already liked secret");
 		liked.push(secretId);
+		likedStorage.set(context.sender, liked);
 	}
 	secret.like();
 	listedSecret.set(secret.id, secret);
