@@ -1,4 +1,4 @@
-import { PersistentUnorderedMap, u128, context, PersistentMap } from "near-sdk-as";
+import { PersistentUnorderedMap, context } from "near-sdk-as";
 
 @nearBindgen
 export class Secret {

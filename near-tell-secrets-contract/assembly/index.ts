@@ -1,5 +1,5 @@
-import {Secret, listedSecret, userReactionStorage, UserReaction} from "./model";
-import {ContractPromiseBatch, context, u128, PersistentMap, logging} from "near-sdk-as";
+import { Secret, listedSecret, userReactionStorage, UserReaction } from "./model";
+import { ContractPromiseBatch, context } from "near-sdk-as";
 
 /**
  * Add a new secret
