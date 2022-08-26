@@ -3,7 +3,7 @@ This dapp is an anonymous dapp where users post their secrets or things they wan
 
 ## How it Works
 
-Other users can like and dislike a secret, and for every like and dislike, the user is paid 1cUSD. Users can get as many likes or dislikes as possible and the more they earn. There is an option to be gifted any amount, so if a secret is very touching, they can be rewarded for posting.
+Other users can like and dislike a secret. There is an option to be gifted any amount, so if a secret is very touching, they can be rewarded for posting.
 
 Link: https://extraordinary-marigold-991f71.netlify.app/
 # Getting Started with Create React App
