@@ -1,0 +1,8 @@
+{
+    "extends": "../node_modules/assemblyscript/std/assembly.json",
+    "include": [
+      "./**/*.ts"
+    ]
+  }
+
+  // clog tomorrow omit solid elevator crumble apology long borrow fit uphold sketch
