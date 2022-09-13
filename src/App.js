@@ -58,6 +58,7 @@ function App() {
   const gift = async (id, amount) => {
     setLoading(true);
     try {
+      if(!amount)alert("Please set amount to gift")
       await giftOwner({ id, amount });
       getSecrets();
     } catch (error) {
